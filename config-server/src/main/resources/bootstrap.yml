@@ -1,0 +1,16 @@
+server:
+ port: 9393
+ 
+spring:
+ cloud:
+  config:
+   server:
+    git:
+     default-label: master
+     uri: https://github.com/joel-mal23/e-Proyectos-Spring.git
+     searchPaths: config-data
+     username: ${GIT_USER}
+     password: ${GIT_PASSWORD}
+    bootstrap: true 
+ profiles:
+  active: dev
