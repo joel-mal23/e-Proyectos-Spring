@@ -1,5 +1,5 @@
 server:
-  port: 9395
+  port: 9394
 spring:
  application:
   name: ms-eureka
