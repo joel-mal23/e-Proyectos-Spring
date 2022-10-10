@@ -1,9 +1,9 @@
+server:
+  port: 9394
 spring:
  application:
-  name: ms-eureka
- cloud:
-  config:
-   enabled: true
-   uri: http://localhost:9393
- profiles:
-  active: dev
+  name: ms-clientes
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
