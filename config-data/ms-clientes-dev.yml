@@ -3,3 +3,7 @@ server:
 spring:
  application:
   name: ms-clientes
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
