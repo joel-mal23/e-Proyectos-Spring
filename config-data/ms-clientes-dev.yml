@@ -1,0 +1,5 @@
+server:
+  port: 9395
+spring:
+ application:
+  name: ms-clientes
