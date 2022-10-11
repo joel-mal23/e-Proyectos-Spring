@@ -26,7 +26,7 @@ public class InmuebleServiceImpl implements InmuebleService{
 	}
 	
 	
-	@Override
+	@Override 	
 	public void deleteInmueble(Long inmuebleId) {
 		inmuebleRepository.deleteById(inmuebleId);
 		

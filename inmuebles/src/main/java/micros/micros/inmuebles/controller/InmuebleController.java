@@ -43,7 +43,7 @@ public class InmuebleController {
 	public ResponseEntity<?> getAllInmuebles()
 	{
 		
-		return ResponseEntity.ok(inmuebleService.findAllInmuebles();
+		return ResponseEntity.ok(inmuebleService.findAllInmuebles());
 	}
 	
 	
