@@ -1,18 +1,18 @@
 server:
-  port: 3333
+ port: 3333
 spring:
-  application:
-    name: inmueble-service
-  datasource:
-    url: jdbc:postgresql://localhost:5432/db_inmueble?currentSchema=sc_inmueble&ssl=false
-    username: admin
-    password: VaxiDrez2005$
-    driver-class-name: org.postgresql.Driver
-  jpa:
-    database-platform: org.hibernate.dialect.PosgreSQLDialect
-    hibernate:
-      ddl-auto: update
-    show-sql: true
+ application:
+  name: inmueble-service
+ datasource:
+  url: jdbc:postgresql://localhost:5432/db_inmueble?currentSchema=sc_inmueble&ssl=false
+  username: admin
+  password: VaxiDrez2005$
+  driver-class-name: org.postgresql.Driver
+ jpa:
+   database-platform: org.hibernate.dialect.PosgreSQLDialect
+   hibernate:
+    ddl-auto: update
+   show-sql: true
 eureka:
   client:
     enabled: false
